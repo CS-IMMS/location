@@ -1,0 +1,117 @@
+
+
+*{
+    padding: 0;
+    margin: 0;
+}
+
+header{
+
+    background-image: url(tete.jpg);
+    background-repeat: no-repeat;
+
+    background-size: cover;
+   height: 400px;
+   color: rgb(35, 208, 238);
+}
+.centre{
+    text-align: center;
+    font-size: 40px;
+}
+button:hover{
+    background-color: rgba(245, 10, 10, 0.898);
+}
+button{
+    font-size: 20px;
+    background-color: teal;
+    color:white;
+}
+
+.forml{
+    
+    
+    border-radius: 40px 50px 40px 50px;
+   background-color: aqua;
+    
+   
+    
+}
+
+.icone{
+    width: 50px;
+    height: 50px;
+ }
+ footer{
+    display: flex;
+     background-color: aqua;
+     justify-content: space-between;
+ }
+ .bas{
+     display: flex;
+    background-color: aqua;
+     
+ }
+ .IMMS{
+     text-align: center;
+ }
+
+
+.cent{
+   margin-left: 400px;
+}
+@media screen and (max-width:800px) {
+
+    .centre{
+        text-align: center;
+        font-size: 40px;
+    }
+    .cent{
+        margin-left: 10px;
+     }
+   
+    
+}
+@media screen and (max-width:300px){
+    header{
+        width: 150%;
+    }
+
+    .centre{
+        text-align: center;
+        font-size: 30px;
+    }
+    .cent{
+        margin-left: 10px;
+     }
+     footer{
+        display: block;
+         background-color: aqua;
+         justify-content: space-between;
+     }
+     .bas{
+         display: block;
+        background-color: aqua;
+         
+     }
+     .IMMS{
+         text-align: center;
+     }
+    
+    
+    .cent{
+       margin-left: 400px;
+    }
+}
+@media screen and (max-width:280px){
+    header{
+        width: 100%;
+    }
+
+    .centre{
+        text-align: center;
+        font-size: 30px;
+    }
+    .cent{
+        margin-left: 10px;
+     }
+}
